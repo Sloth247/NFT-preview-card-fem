@@ -14,7 +14,8 @@
   &__name {
     &-link {
       color: variables.$color-white;
-      &:hover {
+      &:hover,
+      &:focus {
         color: variables.$color-cyan;
       }
     }

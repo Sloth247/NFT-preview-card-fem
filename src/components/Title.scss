@@ -7,7 +7,8 @@
   font-size: 1.3rem;
   font-weight: 600;
   color: variables.$color-white;
-  &:hover {
+  &:hover,
+  &:focus {
     color: variables.$color-cyan;
   }
 }
