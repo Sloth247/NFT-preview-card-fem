@@ -1,0 +1,23 @@
+.author-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1rem;
+}
+.author-container img {
+  border: 1.5px solid white;
+  border-radius: 50%;
+  width: 12%;
+  margin-right: 1rem;
+}
+.author__name-link {
+  color: white;
+}
+.author__name-link:hover {
+  color: #00fff7;
+}
+
+/*# sourceMappingURL=Author.css.map */

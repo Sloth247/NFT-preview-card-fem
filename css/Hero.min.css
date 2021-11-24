@@ -1,0 +1,3 @@
+.hero-container{border-radius:.5rem;overflow:hidden;position:relative;margin-bottom:1rem}.hero-img:hover::after{content:"";position:absolute;background-image:url("../img/icon-view.svg");background-repeat:no-repeat;background-position:center center;background-color:rgba(0,255,247,.5);top:0;left:0;right:0;bottom:0;width:100%;height:100%}.hero-img img{width:100%;border-radius:.5rem}
+
+/*# sourceMappingURL=Hero.min.css.map */
