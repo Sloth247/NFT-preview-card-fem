@@ -1,0 +1,22 @@
+@use "../sass/variables";
+.author {
+  &-container {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    & img {
+      border: 1.5px solid variables.$color-white;
+      border-radius: 50%;
+      width: 12%;
+      margin-right: 1rem;
+    }
+  }
+  &__name {
+    &-link {
+      color: variables.$color-white;
+      &:hover {
+        color: variables.$color-cyan;
+      }
+    }
+  }
+}

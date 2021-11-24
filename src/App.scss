@@ -1,0 +1,69 @@
+@use "./sass/variables";
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+*:focus-visible {
+  outline: dotted 3px #606c38;
+  outline-offset: 10px;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  width: 100%;
+  max-width: 24rem;
+  min-height: 100vh;
+  color: variables.$color-body;
+  margin: 0 auto;
+  background-color: variables.$color-dark-blue;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.main {
+  padding: 0 1.5rem;
+
+  &__inner {
+    padding: 1.3rem;
+    background-color: variables.$color-card-bg;
+    border-radius: 1rem;
+  }
+  &__description {
+    padding: 1rem 0;
+  }
+  &__price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 0.1px solid variables.$color-body;
+    & span {
+      display: flex;
+      align-items: center;
+      &:first-child {
+        color: variables.$color-cyan;
+        font-weight: 400;
+      }
+      & img {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
