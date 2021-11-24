@@ -4,7 +4,7 @@
   position: relative;
   margin-bottom: 1rem;
 }
-.hero-img:hover::after {
+.hero-img:hover::after, .hero-img:focus::after {
   content: "";
   position: absolute;
   background-image: url("../img/icon-view.svg");

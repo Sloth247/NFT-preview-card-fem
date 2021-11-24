@@ -16,7 +16,7 @@
 .author__name-link {
   color: white;
 }
-.author__name-link:hover {
+.author__name-link:hover, .author__name-link:focus {
   color: #00fff7;
 }
 
