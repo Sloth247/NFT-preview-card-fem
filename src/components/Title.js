@@ -5,9 +5,9 @@ export default function Title() {
   return (
     <div>
       <h1 className="sr-only">Equilibrium 3429</h1>
-      <a href={url} className="title">
-        Equilibrium #3429
-      </a>
+      <h2 className="title">
+        <a href={url}>Equilibrium #3429</a>
+      </h2>
     </div>
   );
 }
