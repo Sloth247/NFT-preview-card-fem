@@ -3,7 +3,7 @@
   &-container {
     display: flex;
     align-items: center;
-    padding-top: 1rem;
+    padding: 1rem 0 0.5rem 0;
     & img {
       border: 1.5px solid variables.$color-white;
       border-radius: 50%;

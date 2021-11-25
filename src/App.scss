@@ -37,22 +37,33 @@ a {
   cursor: pointer;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 .main {
   padding: 0 1.5rem;
 
   &__inner {
-    padding: 1.3rem;
+    padding: 1.5rem 1.3rem;
     background-color: variables.$color-card-bg;
     border-radius: 1rem;
   }
   &__description {
-    padding: 1rem 0;
+    padding: 1.5rem 0;
   }
   &__price-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
     border-bottom: 0.1px solid variables.$color-body;
     & span {
       display: flex;

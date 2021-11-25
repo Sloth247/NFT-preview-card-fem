@@ -35,7 +35,9 @@ function App() {
           <Author />
         </div>
       </main>
-      <Attribution />
+      <footer>
+        <Attribution />
+      </footer>
     </div>
   );
 }
